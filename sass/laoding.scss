@@ -1,0 +1,107 @@
+@charset "utf-8";
+// 定义函数
+@function px2rem($px){
+    $rem:36px;
+    @return ($px / $rem) + rem;
+}
+// 公共样式
+input{
+    border: none;
+    display: block;
+}
+body{
+    font-size: px2rem(16px);
+}
+img{
+    display: block
+}
+button{
+    border: none;
+}
+.concent{
+    width: px2rem(360px);
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+$color:#444;
+$color-pink:rgb(234,76,137);
+
+.banner{
+    >img{
+        width: px2rem(360px);
+        height: px2rem(227px);
+    }
+}
+.enter{
+    position: relative;
+    left: 0;
+    input{
+        width: px2rem(328px);
+        height: px2rem(50px);
+        line-height: px2rem(50px);
+        color: rgb(85,85,85);
+        border-bottom: 1px solid rgb(204,204,204);
+        font-size: px2rem(14px);
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    label{
+        position: absolute;
+        top: px2rem(18px);
+        color: rgb(85,85,85);
+        font-size: px2rem(14px);
+        // color: #444;
+        left: px2rem(15px);
+    }
+    span{
+        width: px2rem(78px);
+        height: px2rem(24px);
+        line-height: px2rem(24px);
+        text-align: center;
+        border: 1px solid $color-pink;
+        position: absolute;
+        right: px2rem(24px);
+        top: px2rem(12px);
+        font-size: px2rem(10px);
+        color: $color-pink;
+    }
+    button{
+        width: px2rem(328px);
+        height: px2rem(50px);
+        display: block;
+        background: $color-pink;
+        color: white;
+        border-radius: px2rem(25px);
+        margin: 0 auto;
+        margin-top: px2rem(14px);
+    }
+}
+.chat{
+    height: px2rem(186px);
+    margin-top: px2rem(57px);
+    font-size: px2rem(12px);
+    color: rgb(153,153,153);
+    img{
+        width: px2rem(32px);
+        height: px2rem(27px);
+        margin: 0 auto;
+        margin-top: px2rem(26px);
+        margin-bottom: px2rem(91px);
+    }
+    p{
+        text-align: center;
+        span{
+            color: rgb(0,183,238);
+        }
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+input {
+  border: none;
+  display: block; }
+
+body {
+  font-size: 0.44444rem; }
+
+img {
+  display: block; }
+
+button {
+  border: none; }
+
+.concent {
+  width: 10rem; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.banner > img {
+  width: 10rem;
+  height: 6.30556rem; }
+
+.enter {
+  position: relative;
+  left: 0; }
+  .enter input {
+    width: 9.11111rem;
+    height: 1.38889rem;
+    line-height: 1.38889rem;
+    color: #555555;
+    border-bottom: 1px solid #cccccc;
+    font-size: 0.38889rem;
+    box-sizing: border-box;
+    margin: 0 auto; }
+  .enter label {
+    position: absolute;
+    top: 0.5rem;
+    color: #555555;
+    font-size: 0.38889rem;
+    left: 0.41667rem; }
+  .enter span {
+    width: 2.16667rem;
+    height: 0.66667rem;
+    line-height: 0.66667rem;
+    text-align: center;
+    border: 1px solid #ea4c89;
+    position: absolute;
+    right: 0.66667rem;
+    top: 0.33333rem;
+    font-size: 0.27778rem;
+    color: #ea4c89; }
+  .enter button {
+    width: 9.11111rem;
+    height: 1.38889rem;
+    display: block;
+    background: #ea4c89;
+    color: white;
+    border-radius: 0.69444rem;
+    margin: 0 auto;
+    margin-top: 0.38889rem; }
+
+.chat {
+  height: 5.16667rem;
+  margin-top: 1.58333rem;
+  font-size: 0.33333rem;
+  color: #999999; }
+  .chat img {
+    width: 0.88889rem;
+    height: 0.75rem;
+    margin: 0 auto;
+    margin-top: 0.72222rem;
+    margin-bottom: 2.52778rem; }
+  .chat p {
+    text-align: center; }
+    .chat p span {
+      color: #00b7ee; }
+
+/*# sourceMappingURL=laoding.css.map */
